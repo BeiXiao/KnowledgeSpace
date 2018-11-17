@@ -6,7 +6,7 @@
     >
     <v-flex>
       <!-- 搜索筛选 -->
-      <v-flex xs12 sm8 d-flex>
+      <!-- <v-flex xs12 sm8 d-flex>
         <v-select
           :items="filter.topics"
           label="主题"
@@ -19,7 +19,7 @@
           :items="filter.topics"
           label="主题"
         ></v-select>
-      </v-flex>
+      </v-flex> -->
       <!-- 搜索筛选 End -->
       <!-- 空间列表 -->
       <SpaceList
