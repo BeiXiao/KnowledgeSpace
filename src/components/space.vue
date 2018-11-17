@@ -37,25 +37,33 @@
             </div>
         </v-container>
         <v-container class="space-avatars" justify-start={true}>
-          <v-avatar>
+          <v-avatar
+            size="32px"
+          >
             <img
               src="https://cdn.vuetifyjs.com/images/john.jpg"
               alt="John"
             >
           </v-avatar>
-          <v-avatar>
+          <v-avatar
+            size="32px"
+           >
             <img
               src="https://cdn.vuetifyjs.com/images/john.jpg"
               alt="John"
             >
           </v-avatar>
-          <v-avatar>
+          <v-avatar
+            size="32px"
+          >
             <img
               src="https://cdn.vuetifyjs.com/images/john.jpg"
               alt="John"
             >
           </v-avatar>
-          <v-avatar>
+          <v-avatar
+            size="32px"
+          >
             <img
               src="https://cdn.vuetifyjs.com/images/john.jpg"
               alt="John"
@@ -114,5 +122,9 @@
 
 .space-avatars {
   text-align: left;
+}
+
+.space-avatars .v-avatar {
+  margin-right: 8px;
 }
 </style>
