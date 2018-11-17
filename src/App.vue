@@ -8,18 +8,15 @@
       <v-spacer></v-spacer>
     </v-toolbar>
     <v-content>
-      <index/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Index from './components/index'
-
 export default {
   name: 'KnowledgeSpace',
   components: {
-    Index
   },
   data () {
     return {
